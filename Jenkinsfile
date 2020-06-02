@@ -11,7 +11,7 @@ pipeline{
        }
      stage('build devv'){
       when{
-        branch 'dev'
+        branch 'devv'
        }
        steps{
          echo 'building dev'
